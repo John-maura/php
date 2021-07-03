@@ -1,0 +1,7 @@
+body{
+	background: tomato;
+}
+.container{
+	display: flex;
+	color: black;
+}

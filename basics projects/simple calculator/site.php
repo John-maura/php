@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./site.css">
   </head>
   <body>
-    <form action="site.php" method="post">
-      Enter Num1:<input type="number" name="num1"><br>
+    <div class="container">
+    <form class="form"action="site.php" method="post">
+      Enter Num1:<input type="number" step="0.001" name="num1"><br>
       Operator: <input type="text" name="op"><br>
-      Enter Num2:<input type="number" name="num2"><br>
+      Enter Num2:<input type="number" step="0.001" name="num2"><br>
       <input type="submit">
     </form>
+  </div>
    <?php 
    
    function calculator(){
